@@ -12,7 +12,7 @@
           <i
             class="fas fa-tachometer-alt has-text-grey-light"
             style="width: 0.75em; height: 0.75em"
-          ></i>
+          />
           1.9<span class="is-size-5">s</span>
         </p>
         <p class="subtitle has-text-white is-7">0-60 mph</p>

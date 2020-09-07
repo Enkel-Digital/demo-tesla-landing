@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.402bda000c90a2cdde2bab54d500cf2c.js"
+  "/precache-manifest.d8120454fef577790fc9ff6b1b9ceac3.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "demo-tesla-landing"});

@@ -1,8 +1,9 @@
 <template>
   <header class="hero-body">
-    <div class="is-overlay has-text-centered single-spaced" style="top: 92px">
-      <h2 class="subtitle is-4 has-text-weight-light has-text-black">Tesla</h2>
-      <h1 class="title is-1 has-text-black">Roadster</h1>
+    <!-- Using overlay to center the text -->
+    <div class="is-overlay has-text-centered" style="top: 6em">
+      <p class="subtitle is-4 has-text-weight-light">Tesla</p>
+      <p class="title is-1">Roadster</p>
     </div>
   </header>
 </template>
@@ -12,9 +13,3 @@ export default {
   name: "HeroBody",
 };
 </script>
-
-<style scoped>
-.is-extra-dark {
-  color: pink;
-}
-</style>
