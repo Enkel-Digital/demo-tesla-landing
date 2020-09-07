@@ -1,5 +1,5 @@
-# vue-bulma-template
-Template repository for scaffolding simple frontend sites with Vue and Bulma
+# demo-tesla-landing
+Demo landing page for tesla roadster built with [scaffold](https://www.freecodecamp.org/news/how-to-build-a-responsive-tesla-launch-page-with-bulma-css-2bf484057349/). Converting the original vanilla html/css/bulma site to a vue/bulma site.
 
 ## Project setup
 ```
@@ -21,11 +21,8 @@ npm run build
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-
 ## License, Author and Contributing
-This project is developed and made available under the "MIT License"  
+This project is developed and made available under the "AGPL License"  
 If you have any questions, contact us via [email](mailto:developer@enkeldigital.com)  
 Authors:
 - [JJ](https://github.com/Jaimeloeuf)
