@@ -1,12 +1,10 @@
 <template>
-  <!-- Hero content: will be in the middle -->
-  <div class="hero-body">
-    <div class="container has-text-left">
-      <p class="title">Title</p>
-      <p class="subtitle">Subtitle</p>
-      <a class="button" href="#next">scroll down</a>
+  <header class="hero-body">
+    <div class="is-overlay has-text-centered single-spaced" style="top: 92px">
+      <h2 class="subtitle is-4 has-text-weight-light has-text-black">Tesla</h2>
+      <h1 class="title is-1 has-text-black">Roadster</h1>
     </div>
-  </div>
+  </header>
 </template>
 
 <script>

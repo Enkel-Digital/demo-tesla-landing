@@ -1,36 +1,34 @@
 <template>
-  <!-- Hero head: will stick at the top -->
-  <div class="hero-head">
-    <header class="navbar">
-      <div class="container">
-        <div class="navbar-brand">
-          <a class="navbar-item">
-            <img
-              src="https://bulma.io/images/bulma-type-white.png"
-              alt="Logo"
-            />
-          </a>
-          <span class="navbar-burger burger" data-target="navbarMenuHeroC">
-          </span>
-        </div>
-        <div id="navbarMenuHeroC" class="navbar-menu">
-          <div class="navbar-end">
-            <a class="navbar-item is-active"> Home </a>
-            <a class="navbar-item"> Examples </a>
-            <a class="navbar-item"> Documentation </a>
-            <span class="navbar-item">
-              <a class="button is-success is-inverted">
-                <span class="icon">
-                  <i class="fab fa-github"></i>
-                </span>
-                <span>Download</span>
-              </a>
-            </span>
-          </div>
-        </div>
+  <nav class="hero-head">
+    <div class="columns is-mobile is-marginless heading has-text-weight-bold">
+      <div class="column left">
+        <figure class="navbar-item image">
+          <img
+            src="../assets/images/tesla.svg"
+            alt="tesla logo"
+            style="width: 6.25rem; height: 1rem"
+          />
+        </figure>
       </div>
-    </header>
-  </div>
+      <div class="column center desktop">
+        <p class="navbar-item has-text-black">MODEL S</p>
+        <p class="navbar-item has-text-black">MODEL X</p>
+        <p class="navbar-item has-text-black">MODEL 3</p>
+        <p class="navbar-item has-text-white">ROADSTER</p>
+        <p class="navbar-item has-text-black">ENERGY</p>
+      </div>
+      <div class="column right">
+        <p class="navbar-item desktop has-text-black desktop">SHOP</p>
+        <p class="navbar-item desktop has-text-black desktop">SIGN IN</p>
+        <figure class="navbar-item image">
+          <i
+            class="fas fa-3x fa-bars has-text-black"
+            style="width: 1rem; height: 1rem"
+          ></i>
+        </figure>
+      </div>
+    </div>
+  </nav>
 </template>
 
 <script>

@@ -11,6 +11,7 @@ module.exports = {
     parser: "babel-eslint",
   },
   rules: {
+    "no-irregular-whitespace": "off",
     "no-unused-vars": errorOnProduction,
     "no-debugger": errorOnProduction,
     "comma-dangle": ["error", "only-multiline"],
